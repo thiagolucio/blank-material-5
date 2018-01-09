@@ -1,0 +1,10 @@
+.sidenav-content {
+  height: 100vh;
+  padding: 20px;
+}
+.sidenav {
+  width: 250px;
+  padding: 16px;
+  background-color: #006E9D;
+  color: #FFFFFF;
+}

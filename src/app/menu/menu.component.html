@@ -1,0 +1,35 @@
+<mat-toolbar class="menu-bg-gama shadow-1p">
+    <button mat-icon-button color="default">
+      <!-- <mat-icon aria-label="Clique para abrir o menu" (click)="test(start)">menu</mat-icon> -->
+      <mat-icon aria-label="Clique para abrir o menu" (click)="drawer.toggle()">menu</mat-icon>
+    </button>
+
+  <span>QSaúde - web v0.01</span>
+  <span class="menu-space"></span>
+
+  <!-- Primeiro Item de menu - modulos -->
+  <button mat-button [matMenuTriggerFor]="menuModulo">
+    <i class="material-icons icon-layout">dashboard</i>Módulos
+    <mat-menu #menuModulo="matMenu">
+      <button mat-menu-item>Central</button>
+      <button mat-menu-item>Atendimento</button>
+      <button mat-menu-item>Autorização</button>
+      <button mat-menu-item>Administração</button>
+    </mat-menu>
+  </button>
+  <button mat-button [matMenuTriggerFor]="menuIdioma">
+    <i class="material-icons icon-layout">language</i> Idioma
+    <mat-menu #menuIdioma="matMenu">
+      <button mat-menu-item>Português (Brasileiro)</button>
+      <button mat-menu-item>Espanhol</button>
+    </mat-menu>
+  </button>
+  <button mat-button [matMenuTriggerFor]="menuAdm">
+    <i class="material-icons icon-layout">account_circle</i>Administrador
+    <mat-menu #menuAdm="matMenu">
+      <button mat-menu-item>Configuração</button>
+      <button mat-menu-item>Senha</button>
+      <button mat-menu-item>Sair</button>
+    </mat-menu>
+  </button>
+</mat-toolbar>

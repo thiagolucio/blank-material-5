@@ -1,0 +1,26 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body {margin: 0; padding: 0;}
+.menu-space {flex: 1 1 auto;}
+.icon-layout {padding: 0 4px; font-size: 22px; margin-top: -5px;}
+.width-50 {width: 50px;}
+
+.menu-bg-gama {
+  color: #FFFFFF; 
+  background: -moz-linear-gradient(124deg, #006E9D 0, #FF8F7F 82%);/* FF3.6+ */
+  background: -webkit-gradient(linear, 124deg, color-stop(0, 006E9D), color-stop(82%, FF8F7F));/* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(124deg, #006E9D 0, #FF8F7F 82%);/* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(124deg, #006E9D 0, #FF8F7F 82%);/* Opera 11.10+ */
+  background: -ms-linear-gradient(124deg, #006E9D 0, #FF8F7F 82%);/* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+  background: linear-gradient(124deg, #006E9D 0, #FF8F7F 82%);/* W3C */
+}
+
+.shadow-1p {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=12, Direction=117, Color=#000000)";/*IE 8*/
+    -moz-box-shadow: 1px 2px 12px rgba(0,0,0,0.8);/*FF 3.5+*/
+    -webkit-box-shadow: 1px 2px 12px rgba(0,0,0,0.8);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: 1px 2px 12px rgba(0,0,0,0.8);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=12, Direction=135, Color=#000000); /*IE 5.5-7*/
+}
+

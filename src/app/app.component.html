@@ -1,0 +1,14 @@
+<div>
+  <app-menu></app-menu>
+  <mat-drawer-container class="container-sidebar" autosize>
+    <mat-drawer #drawer class="sidenav mat-elevation-z8" mode="side">
+      <app-sidenav></app-sidenav>
+    </mat-drawer>
+    <div class="sidenav-content">
+    <button mat-icon-button color="default">
+      <mat-icon aria-label="Clique para abrir o menu" (click)="drawer.toggle()">menu</mat-icon>
+    </button>
+      <app-content></app-content>
+    </div>
+  </mat-drawer-container>
+</div>
