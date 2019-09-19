@@ -1,8 +1,8 @@
 # README #
 
-Angular Material POC para Projeto QSaude Web.
+Projeto Blank Angular Material 5. 
 
-###QSaude Web usando Angular Material Design Framework###
+###Projeto Blank Web usando Angular Material Design Framework###
 
 
 ### Pré-requisitos ###
